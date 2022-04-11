@@ -1,0 +1,92 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.p1 {
+  font-family: "HK Grotesk", sans-serif;
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+  line-height: 1.8;
+}
+
+.p2 {
+  font-family: "HK Grotesk", sans-serif;
+  padding-left: 35px;
+  padding-right: 35px;
+  line-height: 1.8;
+}
+
+.p2sub {
+  font-family: "HK Grotesk", sans-serif;
+  padding-left: 35px;
+  padding-right: 35px;
+  line-height: 1.8;
+  font-size: 13px;
+}
+
+.p2subgrey {
+  font-family: "HK Grotesk", sans-serif;
+  padding-left: 35px;
+  padding-right: 35px;
+  line-height: 1.8;
+  font-size: 13px;
+  color: #c8c8c8;
+}
+
+.GeneratedMarquee {
+  font-family: "HK Grotesk", serif;
+  background-color: #ffffff;
+  padding: 1.5em;
+  color: #c8c8c8;
+}
+
+.p1glow {
+  font-family: "HK Grotesk", sans-serif;
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: black;
+  text-align: left;
+  animation: glow 1s ease-in-out infinite alternate;
+  line-height: 1.8;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fc94af,
+      0 0 40px #fc94af, 0 0 50px #fc94af, 0 0 60px #fc94af, 0 0 70px #fc94af;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #f25278, 0 0 40px #f25278,
+      0 0 50px #f25278, 0 0 60px #f25278, 0 0 70px #f25278, 0 0 80px #f25278;
+  }
+}
+
+a:link {
+  color: #f26b8a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f25278;
+  background-color: transparent;
+  text-decoration: underline;
+}
